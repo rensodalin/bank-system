@@ -34,6 +34,19 @@ void findtopsell(){
         }
     }
 }
+void readdatatocoffee(){
+    fstream coffeelist;
+    coffeelist.open("coffeelist.txt",ios::in);
+    int x, price;
+    double S_price , M_price, L_price;
+    string name;
+    while(!coffeelist.eof()){
+        coffeelist>>x>>name>>price>>S_price>>M_price>>L_price;
+        
+
+        
+    }
+}
 
 
 

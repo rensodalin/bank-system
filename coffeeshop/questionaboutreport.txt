@@ -1,0 +1,16 @@
+******************Question**********************
+1.How is the Speed of our service?
+===================================
+(1. Fast  , 2. Average , 3. Slow)
+
+2.Are the Price of our products resonable?
+=========================================
+(1.yes , 2. No , 3.Neutral)
+
+3.What do you think about the Variety of drinks on our Menu?
+============================================================
+(1. Excellent , 2. Satisfactory , 3.Needs more option)
+
+4.Do you have any suggestions for new drinks or menu items?
+(open-ended feedback)
+===========================================================
