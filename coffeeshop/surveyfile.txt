@@ -1,0 +1,22 @@
+
+_________________ SurveyQuestions_______________________
+
+1. How would you rate our staff's service?
+============================== 
+ (1. Excellent , 2. Satisfactory, 3. Needs Improvement)
+ 
+2. How is the Service here (Environment) ?
+============================== 
+ (1. Good , 2. Normal, 3. Bad)
+
+3. How would you rate our drink service?
+============================== 
+ (1. Good , 2. Normal, 3. Bad)
+
+4. Would you recommond our shop to other ?
+=========================================
+ (1. Yes , 2. No)
+
+5. Feel free to feedback or have the suggest for us : 
+=====================================================
+______________________________________________________

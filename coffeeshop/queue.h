@@ -1,29 +1,36 @@
 #include<iostream>
 using namespace std;
-struct coffemenu{
-    int No;
-    string type;
-    double s;
-    double M;
-    double L;
+
+//Vadhana move form Main to queue
+struct CoffeeMenu{
+     int No;
+     string Type;
+     double S;
+     double M;
+     double L;
 };
-struct Element{
-    string name[100];
-    string size[100];
-    int number[100];
-    int ordersize;
-    Element *next;
+struct Element
+{
+	string name[50];
+  	string size[50];
+	int number[50];
+  	int ordersize;
+	Element *next;
 };
-struct Queue{
-    int n;
-    Element *front;
-    Element *tail;
+
+struct Queue
+{
+	int n;
+	Element *front;
+	Element *tail;
 };
-Queue *creatqueue(){
-    Queue *q =new Queue();
-    q->front=NULL;
-    q->tail=NULL;
-    q->n=0;
-    return q;
+
+Queue *MakeNewList()
+{
+	Queue *qs = new Queue();
+	qs->front = NULL;
+	qs->tail = NULL;
+	qs->n = 0;
+	return qs;
 }
 

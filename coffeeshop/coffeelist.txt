@@ -1,0 +1,15 @@
+1 Bullet 1.8 2 2.2
+2 Crown 2 2.2 2.4
+3 Hot_Latte 1.5 1.8 2
+4 Cappucino 1.5 1.8 2
+5 Mocha 1.6 2.2 2.4
+6 Cacoa 1.6 2.2 2.4
+7 Vannila_Frape 1.6 1.8 2
+8 Caramel_Frape 1.8 2 2.2
+9 Salted_Caramel 1.8 2 2.2
+10 Ice_Latte 1.6 1.8 2
+11 Cappucino_BS 2 2.2 2.4
+12 Espresso 2 2.2 2.4
+13 Americano 2 2.2 2.4
+14 Machhiato 1.8 2 2.2
+15 Marochhino 2 2.2 2.4

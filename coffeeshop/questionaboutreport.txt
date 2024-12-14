@@ -1,16 +1,45 @@
-******************Question**********************
-1.How is the Speed of our service?
-===================================
-(1. Fast  , 2. Average , 3. Slow)
+.......................Questions.......................
+1. How is the Service here (Staff) ?
+============================== 
+ (1. Good , 2. Normal, 3. Bad)
+ 
+2. How is the Service here (Environment) ?
+============================== 
+ (1. Good , 2. Normal, 3. Bad)
 
-2.Are the Price of our products resonable?
+3. How is the Service here (Drink Service) ?
+============================== 
+ (1. Good , 2. Normal, 3. Bad)
+
+4. Would you recommond our shop to other ?
 =========================================
-(1.yes , 2. No , 3.Neutral)
+ (1. Yes , 2. No)
 
-3.What do you think about the Variety of drinks on our Menu?
-============================================================
-(1. Excellent , 2. Satisfactory , 3.Needs more option)
+5. Feel free to feedback or have the suggest for us : 
+=====================================================
 
-4.Do you have any suggestions for new drinks or menu items?
-(open-ended feedback)
-===========================================================
+........................Answer...........................
+ Question1 : 1 , Question2 : 2 , Question3 : 1 , Question4 : 2 , 5 Feedback : Wow, I've never taste such a coffee like these before
+ Question1 : 2 , Question2 : 2 , Question3 : 3 , Question4 : 2 , 5 Feedback : Everything is good, btw staff manner should be improe Question1 : 1 , Question2 : 1 , Question3 : 1 , Question4 : 2 , 5 Feedback : test
+ Question1 : 1 , Question2 : 2 , Question3 : 1 , Question4 : 1 , 5 Feedback : 
+ Question1 : 1 , Question2 : 2 , Question3 : 1 , Question4 : 2 , 5 Feedback : good
+
+Date: 8/12/2024
+
+Date: 8/12/2024
+ Question1 : 1 , Question2 : 1 , Question3 : 1 , Question4 : 1 , 5 Feedback : good
+
+
+Date: 10/12/2024
+ Question1 : 1 , Question2 : 1 , Question3 : 1 , Question4 : 1 , 5 Feedback : good
+
+
+
+Date: 10/12/2024
+ Question1 : 1 , Question2 : 2 , Question3 : 3 , Question4 : 2 , 5 Feedback : very good
+
+
+Date: 10/12/2024
+ Question1 : 2 , Question2 : 2 , Question3 : 1 , Question4 : 2 , 5 Feedback : bad
+
+
