@@ -30,9 +30,9 @@ struct Queue
 Queue *MakeNewList()
 {
     Queue *qs =new Queue();
-    q->front=NULL;
-    q->tail=NULL;
-    q->n = 0;
+    qs->front=NULL;
+    qs->tail=NULL;
+    qs->n = 0;
     return qs;
 }
 

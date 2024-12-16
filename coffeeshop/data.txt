@@ -163,3 +163,26 @@ Total for this item: $6
 Total Price (after discount): $6
 -----------------------------------
 
+Order Details (16/12/2024):
+Coffee ID: 2
+Type: Crown
+Cup Size: Large
+Number of Cups: 14
+Price per Cup: $2.4
+Total for this item: $33.6
+----------------------
+Total Price (after discount): $30.24
+-----------------------------------
+
+Order Details (16/12/2024):
+Coffee ID: 4
+Type: Cappucino
+Cup Size: Medium
+Number of Cups: 2
+Price per Cup: $1.8
+Total for this item: $3.6
+----------------------
+Discount Applied: $1
+Total Price (after discount): $2.6
+-----------------------------------
+
