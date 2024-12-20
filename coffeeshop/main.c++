@@ -102,9 +102,6 @@ double discount(double Price, bool discountEarned, int totalCups) {
     }
 
     // Ensure that price doesn't drop below $1 after the game discount
-    if (Price < 1.0) {
-        Price = 1.0;
-    }
 
     // If the customer buys more than 10 cups, apply a general discount
     if (totalCups > 10) {
@@ -124,8 +121,8 @@ double discount(double Price, bool discountEarned, int totalCups) {
     double AfterDiscount = Price - discountAmount;
 
     // Ensure that price is not less than $1 after all discounts
-    if (AfterDiscount < 1.0) {
-        AfterDiscount = 1.0;
+    if (AfterDiscount < 0.0) {
+        AfterDiscount = 0.0;
     }
 
     return AfterDiscount; // Return the final price after all discounts
@@ -369,7 +366,7 @@ int main(){
                do
                {
                     again:
-                    cout<<"  1.Display Order\n  2. Remove a Order (It has been served)\n3. Back\n";
+                    cout<<"  1.Display Order\n  2. Remove a Order (It has been served)\n  3. Back\n";
                     cout<<" \nEnter your choice : ";
                     cin>>select;
                     if(select==1)
