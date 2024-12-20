@@ -186,3 +186,36 @@ Discount Applied: $1
 Total Price (after discount): $2.6
 -----------------------------------
 
+Order Details (20/12/2024):
+Coffee ID: 1
+Type: Bullet
+Cup Size: Small
+Number of Cups: 1
+Price per Cup: $1.8
+Total for this item: $1.8
+----------------------
+Total Price (after discount): $1.8
+-----------------------------------
+
+Order Details (20/12/2024):
+Coffee ID: 2
+Type: Crown
+Cup Size: Small
+Number of Cups      : 1
+Price per Cup       : $2
+Total for this item : $2
+----------------------
+Total Price (after discount): $2
+-----------------------------------
+
+Order Details (20/12/2024):
+Coffee ID: 1
+Type: Bullet
+Cup Size: Small
+Number of Cups      : 2
+Price per Cup       : $1.8
+Total for this item : $3.6
+----------------------
+Total Price (after discount): $3.6
+-----------------------------------
+
