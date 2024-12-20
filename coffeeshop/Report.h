@@ -50,24 +50,24 @@ void WriteData(int Day, int Month, int Year, vector<Order> orders) {
 
     // Loop through each order and write the details to the file
     for (const auto& order : orders) {
-        Write << "Coffee ID: " << order.coffeeID << endl;
-        Write << "Type: " << order.coffeeType << endl;
-        Write << "Cup Size: " << order.cupSize << endl;
-        Write << "Number of Cups: " << order.numCups << endl;
-        Write << "Price per Cup: $" << order.pricePerCup << endl;
-        Write << "Total for this item: $" << order.totalForItem << endl;
-        Write << "----------------------\n";  // Separator for each order
+        Write << "Coffee ID            : " << order.coffeeID << endl;
+        Write << "Type                 : " << order.coffeeType << endl;
+        Write << "Cup Size             : " << order.cupSize << endl;
+        Write << "Number of Cups       : " << order.numCups << endl;
+        Write << "Price per Cup        : $" << order.pricePerCup << endl;
+        Write << "Total for this item  : $" << order.totalForItem << endl;
+        Write << "-----------------------------------------------------\n";  // Separator for each order
         
         totalPrice += order.totalForItem;  // Add the total for this order to the day's total
     }
 
     // Calculate the total price after applying a discount (if any)
     double discount = 0.1;  // Example discount of 10%
-    double discountedTotalPrice = totalPrice - (totalPrice * discount);
+    double discountedTotalPrice = totalPrice * ( 1 - discount );
 
     // Write the total price (after discount)
-    Write << "Total Price (after discount): $" << discountedTotalPrice << endl;
-    Write << "-----------------------------------\n";  // Separator for the day
+        Write << "Total Price (after discount): $" << discountedTotalPrice << endl;
+        Write << "-----------------------------------------------------\n";  // Separator for the day
 
     Write.close();  // Close the file after writing
 }
@@ -84,7 +84,14 @@ void Report_Day(int day, int month, int year) {
     string line;
     bool foundData = false; // To track if any matching data is found
     int totalSmall = 0, totalMedium = 0, totalLarge = 0;
+<<<<<<< HEAD
     double totalIncomeAfterDiscount = 0.0;
+=======
+    double totalIncomeafterdiscount = 0.0;
+    
+    cout << "Report for Date: " << day << "/" << month << "/" << year << endl;
+    cout << "-----------------------------------------------------\n";
+>>>>>>> 58a8a952e85d3116e90d8c16f3c8d72c29f96ad4
 
     while (getline(Read, line)) {
         // Check if the line contains the date in the format "Order Details (day/month/year):"
@@ -155,6 +162,7 @@ void Report_Day(int day, int month, int year) {
 
     if (foundData) {
         // Display the summary of the report
+<<<<<<< HEAD
         cout << "\nSummary for " << day << "/" << month << "/" << year << ":\n";
         cout << "Total Small Cups: " << totalSmall << endl;
         cout << "Total Medium Cups: " << totalMedium << endl;
@@ -162,6 +170,13 @@ void Report_Day(int day, int month, int year) {
         cout << "Total Income for the Day: $" << fixed << setprecision(2) << totalIncomeAfterDiscount << endl;
     } else {
         cout << "No data found for the specified date.\n";
+=======
+        cout << "\nSummary for the Day :\n";
+        cout << "Total Small Cups          : " << totalSmall << endl;
+        cout << "Total Medium Cups         : " << totalMedium << endl;
+        cout << "Total Large Cups          : " << totalLarge << endl;
+        cout << "Total Income for the Day  : $" << fixed<<setprecision(2)<<totalIncomeafterdiscount << endl;
+>>>>>>> 58a8a952e85d3116e90d8c16f3c8d72c29f96ad4
     }
 
     Read.close(); // Close the file
@@ -250,6 +265,7 @@ void Report_Month(int month, int year) {
 
     if (foundData) {
         // Display the summary of the report
+<<<<<<< HEAD
         cout << "\nSummary for " << month << "/" << year << ":\n";
         cout << "Total Small Cups: " << totalSmall << endl;
         cout << "Total Medium Cups: " << totalMedium << endl;
@@ -257,6 +273,13 @@ void Report_Month(int month, int year) {
         cout << "Total Income for the Month: $" << fixed << setprecision(2) << totalIncomeAfterDiscount << endl;
     } else {
         cout << "No data found for the specified month.\n";
+=======
+        cout << "\nSummary for the Month :\n";
+        cout << "Total Small Cups           : " << totalSmall << endl;
+        cout << "Total Medium Cups          : " << totalMedium << endl;
+        cout << "Total Large Cups           : " << totalLarge << endl;
+        cout << "Total Income for the Month : $" << fixed << setprecision(2) << totalIncomeafterdiscount << endl;
+>>>>>>> 58a8a952e85d3116e90d8c16f3c8d72c29f96ad4
     }
 
     Read.close(); // Close the file
@@ -274,7 +297,14 @@ void Report_Year(int year) {
     string line;
     bool foundData = false; // To track if any matching data is found
     int totalSmall = 0, totalMedium = 0, totalLarge = 0;
+<<<<<<< HEAD
     double totalIncomeAfterDiscount = 0.0;
+=======
+    double totalIncomeafterdiscount = 0.0;
+
+    cout << "Report for Year : " << year << endl;
+    cout << "------------------------------------------------------\n";
+>>>>>>> 58a8a952e85d3116e90d8c16f3c8d72c29f96ad4
 
     while (getline(Read, line)) {
         // Check if the line contains the date in the format "Order Details (day/month/year):"
@@ -345,6 +375,7 @@ void Report_Year(int year) {
 
     if (foundData) {
         // Display the summary of the report
+<<<<<<< HEAD
         cout << "\nSummary for the year " << year << ":\n";
         cout << "Total Small Cups: " << totalSmall << endl;
         cout << "Total Medium Cups: " << totalMedium << endl;
@@ -352,6 +383,13 @@ void Report_Year(int year) {
         cout << "Total Income for the Year: $" << fixed << setprecision(2) << totalIncomeAfterDiscount << endl;
     } else {
         cout << "No data found for the specified year.\n";
+=======
+        cout << "\nSummary for the Year :\n";
+        cout << "Total Small Cups          : " << totalSmall << endl;
+        cout << "Total Medium Cups         : " << totalMedium << endl;
+        cout << "Total Large Cups          : " << totalLarge << endl;
+        cout << "Total Income for the Year : $" << fixed << setprecision(2) << totalIncomeafterdiscount << endl;
+>>>>>>> 58a8a952e85d3116e90d8c16f3c8d72c29f96ad4
     }
 
     Read.close(); // Close the file
