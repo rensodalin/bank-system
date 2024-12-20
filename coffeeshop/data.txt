@@ -186,3 +186,201 @@ Discount Applied: $1
 Total Price (after discount): $2.6
 -----------------------------------
 
+Order Details (18/12/2024):
+Coffee ID: 14
+Type: Machhiato
+Cup Size: Large
+Number of Cups: 12
+Price per Cup: $2.2
+Total for this item: $26.4
+----------------------
+Total Price (after discount): $23.76
+-----------------------------------
+
+Order Details (19/12/2024):
+Coffee ID: 15
+Type: Marochhino
+Cup Size: Small
+Number of Cups: 12
+Price per Cup: $2
+Total for this item: $24
+----------------------
+Total Price (after discount): $21.6
+-----------------------------------
+
+Order Details (19/12/2024):
+Coffee ID: 14
+Type: Machhiato
+Cup Size: Medium
+Number of Cups: 1
+Price per Cup: $2
+Total for this item: $2
+----------------------
+Discount Applied: $1
+Total Price (after discount): $1
+-----------------------------------
+
+Order Details (19/12/2024):
+Coffee ID: 12
+Type: Espresso
+Cup Size: Medium
+Number of Cups: 13
+Price per Cup: $2.2
+Total for this item: $28.6
+----------------------
+Discount Applied: $1
+Total Price (after discount): $24.84
+-----------------------------------
+
+Order Details (20/12/2024):
+Coffee ID: 12
+Type: Espresso
+Cup Size: Medium
+Number of Cups: 12
+Price per Cup: $2.2
+Total for this item: $26.4
+----------------------
+Total Price (after discount): $23.76
+-----------------------------------
+
+Order Details (20/12/2024):
+Coffee ID: 12
+Type: Espresso
+Cup Size: Small
+Number of Cups: 1
+Price per Cup: $2
+Total for this item: $2
+----------------------
+Total Price (after discount): $2
+-----------------------------------
+
+Order Details (20/12/2024):
+Coffee ID: 12
+Type: Espresso
+Cup Size: Medium
+Number of Cups: 1
+Price per Cup: $2.2
+Total for this item: $2.2
+----------------------
+Discount Applied: $1
+Total Price (after discount): $1.2
+-----------------------------------
+
+Order Details (20/12/2024):
+Coffee ID: 12
+Type: Espresso
+Cup Size: Large
+Number of Cups: 13
+Price per Cup: $2.4
+Total for this item: $31.2
+----------------------
+Discount Applied: $1
+Total Price (after discount): $27.18
+-----------------------------------
+
+Order Details (20/12/2024):
+Coffee ID: 12
+Type: Espresso
+Cup Size: Medium
+Number of Cups: 12
+Price per Cup: $2.2
+Total for this item: $26.4
+----------------------
+Total Price (after discount): $23.76
+-----------------------------------
+
+Order Details (20/12/2024):
+Coffee ID: 3
+Type: Hot_Latte
+Cup Size: Medium
+Number of Cups: 1
+Price per Cup: $1.8
+Total for this item: $1.8
+----------------------
+Discount Applied: $1
+Total Price (after discount): $1
+-----------------------------------
+
+Order Details (20/12/2024):
+Coffee ID: 7
+Type: Vannila_Frape
+Cup Size: Medium
+Number of Cups: 1
+Price per Cup: $1.8
+Total for this item: $1.8
+----------------------
+Discount Applied: $1
+Total Price (after discount): $1
+-----------------------------------
+
+Order Details (20/12/2024):
+Coffee ID: 3
+Type: Hot_Latte
+Cup Size: Large
+Number of Cups: 3
+Price per Cup: $2
+Total for this item: $6
+----------------------
+Discount Applied: $1
+Total Price (after discount): $5
+-----------------------------------
+
+Order Details (20/12/2024):
+Coffee ID: 6
+Type: Cacoa
+Cup Size: Small
+Number of Cups: 1
+Price per Cup: $1.6
+Total for this item: $1.6
+----------------------
+Discount Applied: $1
+Total Price (after discount): $1
+-----------------------------------
+
+Order Details (20/12/2024):
+Coffee ID: 12
+Type: Espresso
+Cup Size: Small
+Number of Cups: 1
+Price per Cup: $2
+Total for this item: $2
+----------------------
+Total Price (after discount): $2
+-----------------------------------
+
+Order Details (20/12/2024):
+Coffee ID: 7
+Type: Vannila_Frape
+Cup Size: Small
+Number of Cups: 1
+Price per Cup: $1.6
+Total for this item: $1.6
+----------------------
+Discount Applied: $1
+Total Price (after discount): $1
+-----------------------------------
+
+Order Details (20/12/2024):
+Coffee ID: 7
+Type: Vannila_Frape
+Cup Size: Small
+Number of Cups: 1
+Price per Cup: $1.6
+Total for this item: $1.6
+----------------------
+Discount Applied: $1
+Total Price (after discount): $0.6
+-----------------------------------
+
+Order Details (20/12/2024):
+Coffee ID: 12
+Type: Espresso
+Cup Size: Medium
+Number of Cups: 1
+Price per Cup: $2.2
+Total for this item: $2.2
+----------------------
+Discount Applied: $1
+Total Price (after discount): $1.2
+-----------------------------------
+
