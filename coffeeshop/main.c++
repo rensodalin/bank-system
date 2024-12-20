@@ -436,7 +436,7 @@ int main(){
                     cin >> select;
 
             if (select == 1) {
-                cout << " - Enter Date: ";
+                cout << " - Enter Day: ";
                 cin >> RDay;
                 cout << " - Enter Month: ";
                 cin >> Rmonth;
