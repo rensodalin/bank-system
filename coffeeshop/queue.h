@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 
@@ -49,15 +49,15 @@ void enqueue(Queue *qs, int name[], int size[], int number[], int arrSize, Coffe
             e->name[i] = "Bullet";
             if (size[i] == 1)
             {
-                e->size[i] = "small";
+                e->size[i] = "Small";
             }
             else if(size[i] == 2)
             {
-                e->size[i] = "medium";
+                e->size[i] = "Medium";
             }
             else if(size[i] == 3)
             {
-                e->size[i] = "large";
+                e->size[i] = "Large";
             }
             else
             {
@@ -69,15 +69,15 @@ void enqueue(Queue *qs, int name[], int size[], int number[], int arrSize, Coffe
             e->name[i] = "Crown";
             if (size[i] == 1)
             {
-                e->size[i] = "small";
+                e->size[i] = "Small";
             }
             else if(size[i] == 2)
             {
-                e->size[i] = "medium";
+                e->size[i] = "Medium";
             }
             else if(size[i] == 3)
             {
-                e->size[i] = "large";
+                e->size[i] = "Large";
             }
             else{
                 e->size[i] = "Invalid";
@@ -88,15 +88,15 @@ void enqueue(Queue *qs, int name[], int size[], int number[], int arrSize, Coffe
             e->name[i] = "Hot_Latte";
             if(size[i] == 1)
             {
-                e->size[i] = "small";
+                e->size[i] = "Small";
             }
             else if(size[i] == 2)
             {
-                e->size[i] = "medium";
+                e->size[i] = "Medium";
             }
             else if(size[i] == 3)
             {
-                e->size[i] = "large";
+                e->size[i] = "Large";
             }
             else{
                 e->size[i] = "Invalid";
@@ -106,15 +106,15 @@ void enqueue(Queue *qs, int name[], int size[], int number[], int arrSize, Coffe
         {
             e->size[i] = "Cappucino";
             if(size[i] == 1){
-                e->size[i] = "small";
+                e->size[i] = "Small";
             }
             else if(size[i] == 2)
             {
-                e->size[i] = "medium";
+                e->size[i] = "Medium";
             }
             else if(size[i] == 3)
             {
-                e->size[i] = "large";
+                e->size[i] = "Large";
             }
             else{
                 e->size[i] = "Invalid";
@@ -125,15 +125,15 @@ void enqueue(Queue *qs, int name[], int size[], int number[], int arrSize, Coffe
             e->size[i] = "Mocha";
             if(size[i] == 1)
             {
-                e->size[i] = "small";
+                e->size[i] = "Small";
             }
             else if(size[i] == 2)
             {
-                e->size[i] = "medium";
+                e->size[i] = "Medium";
             }
             else if(size[i] == 3)
             {
-                e->size[i] ="large";
+                e->size[i] = "Large";
             }
             else{
                 e->size[i] = "Invalid";
@@ -144,15 +144,15 @@ void enqueue(Queue *qs, int name[], int size[], int number[], int arrSize, Coffe
             e->name[i] = "Cocoa";
             if(size[i] == 1)
             {
-                e->size[i] = "small";
+                e->size[i] = "Small";
             }
             else if(size[i] == 2)
             {
-                e->size[i] = "medium";
+                e->size[i] = "Medium";
             }
             else if(size[i] == 3)
             {
-                e->size[i] ="large";
+                e->size[i] = "Large";
             }
             else{
                 e->size[i] = "Invalid";
@@ -163,15 +163,15 @@ void enqueue(Queue *qs, int name[], int size[], int number[], int arrSize, Coffe
             e->name[i] = "Vannila_Frape";
 	        if(size[i] == 1)
 	    	{
-		    	e->size[i] = "small";
+		    	e->size[i] = "Small";
 	    	}
 	    	else if(size[i] == 2)
 	    	{
-			    e->size[i] = "medium";
+			    e->size[i] = "Medium";
 	    	}
      		else if(size[i] == 3)
 	    	{
-		    	e->size[i] = "large";
+		    	e->size[i] = "Large";
 	    	}
 	    	else
 	    	{
@@ -183,15 +183,15 @@ void enqueue(Queue *qs, int name[], int size[], int number[], int arrSize, Coffe
             e->name[i] = "Caramel_Frape";
 	    	if(size[i] == 1)
 	    	{
-		    	e->size[i] = "small";
+		    	e->size[i] = "Small";
 	    	}
 	    	else if(size[i] == 2)
 	    	{
-		    	e->size[i] = "medium";
+		    	e->size[i] = "Medium";
 	    	}
 	    	else if(size[i] == 3)
 		    {
-			    e->size[i] = "large";
+			    e->size[i] = "Large";
 	    	}
 	    	else
 	    	{
@@ -203,15 +203,15 @@ void enqueue(Queue *qs, int name[], int size[], int number[], int arrSize, Coffe
             e->name[i] = "Salted_Caramel";
 	    	if(size[i] == 1)
 	    	{
-		    	e->size[i] = "small";
+		    	e->size[i] = "Small";
 	    	}
 	 	    else if(size[i] == 2)
 	    	{
-		    	e->size[i] = "medium";
+		    	e->size[i] = "Medium";
 	       	}
 	    	else if(size[i] == 3)
 	    	{
-		    	e->size[i] = "large";
+		    	e->size[i] = "Large";
 		    }
 	    	else
 	    	{
@@ -223,15 +223,15 @@ void enqueue(Queue *qs, int name[], int size[], int number[], int arrSize, Coffe
             e->name[i] = "Ice_Latte";
 	    	if(size[i] == 1)
 	    	{
-		    	e->size[i] = "small";
+		    	e->size[i] = "Small";
 	    	}
 	    	else if(size[i] == 2)
 	    	{
-	    		e->size[i] = "medium";
+	    		e->size[i] = "Medium";
 	    	}
 	    	else if(size[i] == 3)
 		   {
-			   e->size[i] = "large";
+			   e->size[i] = "Large";
 	    	}
 	    	else
 	    	{
@@ -243,15 +243,15 @@ void enqueue(Queue *qs, int name[], int size[], int number[], int arrSize, Coffe
             e->name[i] = "Americano";
 	    	if(size[i] == 1)
 	    	{
-		    	e->size[i] = "small";
+		    	e->size[i] = "Small";
 	    	}
 	     	else if(size[i] == 2)
 		    {
-		    	e->size[i] = "medium";
+		    	e->size[i] = "Medium";
 	     	}
 	    	else if(size[i] == 3)
 	    	{
-		    	e->size[i] = "large";
+		    	e->size[i] = "Large";
 	    	}
 		    else
 	    	{
@@ -263,15 +263,15 @@ void enqueue(Queue *qs, int name[], int size[], int number[], int arrSize, Coffe
             e->name[i] = "Espresso";
 	    	if(size[i] == 1)
     		{
-		    	e->size[i] = "small";
+		    	e->size[i] = "Small";
 	    	}
 	    	else if(size[i] == 2)
 	    	{
-		    	e->size[i] = "medium";
+		    	e->size[i] = "Medium";
 	    	}
 	    	else if(size[i] == 3)
 	    	{
-		    	e->size[i] = "large";
+		    	e->size[i] = "Large";
 	    	}
 	    	else
 	    	{
@@ -283,15 +283,15 @@ void enqueue(Queue *qs, int name[], int size[], int number[], int arrSize, Coffe
             e->name[i] = "Americano";
 	     	if(size[i] == 1)
 	    	{
-		    	e->size[i] = "small";
+		    	e->size[i] = "Small";
 	    	}
 		    else if(size[i] == 2)
 	     	{
-		     	e->size[i] = "medium";
+		     	e->size[i] = "Medium";
 	    	}
 		    else if(size[i] == 3)
 		    {
-		    	e->size[i] = "large";
+		    	e->size[i] = "Large";
 	    	}
 	        else
 		    {
@@ -303,15 +303,15 @@ void enqueue(Queue *qs, int name[], int size[], int number[], int arrSize, Coffe
             e->name[i] = "Machhiato";
 	    	if(size[i] == 1)
 	    	{
-		    	e->size[i] = "small";
+		    	e->size[i] = "Small";
 	    	}
 	    	else if(size[i] == 2)
 	    	{
-		    	e->size[i] = "medium";
+		    	e->size[i] = "Medium";
 	    	}
 		    else if(size[i] == 3)
 		    {
-			    e->size[i] = "large";
+			    e->size[i] = "Large";
 		    }
 	    	else
 	    	{
@@ -323,15 +323,15 @@ void enqueue(Queue *qs, int name[], int size[], int number[], int arrSize, Coffe
             e->name[i] = "Matcha Latte";
 	    	if(size[i] == 1)
 	    	{
-		    	e->size[i] = "small";
+		    	e->size[i] = "Small";
 	    	}
 	    	else if(size[i] == 2)
 	    	{
-		    	e->size[i] = "medium";
+		    	e->size[i] = "Medium";
 	    	}
 	    	else if(size[i] == 3)
 	    	{
-		    	e->size[i] = "large";
+		    	e->size[i] = "Large";
 	    	}
 	    	else
 	    	{
@@ -343,15 +343,15 @@ void enqueue(Queue *qs, int name[], int size[], int number[], int arrSize, Coffe
             e->name[i] = "Invalid";
 	    	if(size[i] == 1)
 	    	{
-		    	e->size[i] = "small";
+		    	e->size[i] = "Small";
 	    	}
 		    else if(size[i] == 2)
 	     	{
-		    	e->size[i] = "medium";
+		    	e->size[i] = "Medium";
 	    	}
 	    	else if(size[i] == 3)
 	    	{
-	 	    	e->size[i] = "large";
+	 	    	e->size[i] = "Large";
 	    	}
 	    	else
 	    	{
@@ -379,7 +379,7 @@ void Dequeue(Queue *qs)
     tmp = qs->front;
     if(qs->n == 0)
     {
-        cout<<"<< Cannot delete because there is no element in the queue. "<<endl;
+        cout <<"<< Cannot delete because there is no element in the queue. "<< endl;
     }
     else{
         qs->front = qs->front->next;
@@ -396,23 +396,23 @@ void Display_Queue_Cos(Queue *qs)
 
     if(qs->n == 0)
     {
-        cout<<"<< Cannot dispaly because there is no element in the queue. >>"<<endl;
+        cout <<"<< Cannot dispaly because there is no element in the queue. >>"<< endl;
     }
     else
     {
         while(tmp != NULL)
         {
-            cout << "Order: "<<cos_order_number<<endl;
+            cout << "Order: "<< cos_order_number << endl;
 
             for(int i=0; i<tmp->ordersize; i++)
             {
                 cout<<" Coffee|Size|Amount : ";
-                cout<<tmp->name[i]<<"\t"<<tmp->size[i]<<"\t"<<tmp->number[i];
-                cout<<endl;
+                cout<<tmp->name[i]<<"\t"<<tmp->size[i]<<"\t"<< tmp->number[i];
+                cout << endl;
             }
             tmp = tmp->next;
             cos_order_number++;
-            cout<< endl;
+            cout << endl;
         }
     }
 }
