@@ -102,9 +102,6 @@ double discount(double Price, bool discountEarned, int totalCups) {
     }
 
     // Ensure that price doesn't drop below $1 after the game discount
-    if (Price < 1.0) {
-        Price = 1.0;
-    }
 
     // If the customer buys more than 10 cups, apply a general discount
     if (totalCups > 10) {
@@ -124,8 +121,8 @@ double discount(double Price, bool discountEarned, int totalCups) {
     double AfterDiscount = Price - discountAmount;
 
     // Ensure that price is not less than $1 after all discounts
-    if (AfterDiscount < 1.0) {
-        AfterDiscount = 1.0;
+    if (AfterDiscount < 0.0) {
+        AfterDiscount = 0.0;
     }
 
     return AfterDiscount; // Return the final price after all discounts
@@ -159,14 +156,14 @@ void priceCar(CoffeeMenu Menu[], int type[], int Size[], int number[], int arrSi
 
         Today_Top_Sells[type[oS]] = Today_Top_Sells[type[oS]] + number[oS];
 
-        outFile << "Coffee ID: " << type[oS] + 1 << "\n";
+          outFile << "Coffee ID           : " << type[oS] + 1 << "\n";
 
         if (type[oS] == 0) {
             cout << "Bullet" << "\t\t";
-            outFile << "Type: Bullet\n";
+          outFile << "Type                : Bullet\n";
         } else {
             cout << Menu[type[oS]].Type << "\t\t";
-            outFile << "Type: " << Menu[type[oS]].Type << "\n";
+          outFile << "Type                : " << Menu[type[oS]].Type << "\n";
         }
 
         // Apply price based on cup size
@@ -175,25 +172,25 @@ void priceCar(CoffeeMenu Menu[], int type[], int Size[], int number[], int arrSi
             totalPrice = totalPrice + afCal;
             cout << Menu[type[oS]].S << "\t\t" << number[oS] << "\t" << totalPrice << "$" << endl;
             Cos_Total = Cos_Total + totalPrice;
-            outFile << "Cup Size: Small\n";
+          outFile << "Cup Size            : Small\n";
         } else if (Size[oS] == 2) { // Medium
             afCal = Menu[type[oS]].M * number[oS];
             totalPrice = totalPrice + afCal;
             cout << Menu[type[oS]].M << "\t\t" << number[oS] << "\t" << totalPrice << "$" << endl;
             Cos_Total = Cos_Total + totalPrice;
-            outFile << "Cup Size: Medium\n";
+          outFile << "Cup Size            : Medium\n";
         } else if (Size[oS] == 3) { // Large
             afCal = Menu[type[oS]].L * number[oS];
             totalPrice = totalPrice + afCal;
             cout << Menu[type[oS]].L << "\t\t" << number[oS] << "\t" << totalPrice << "$" << endl;
             Cos_Total = Cos_Total + totalPrice;
-            outFile << "Cup Size: Large\n";
+          outFile << "Cup Size            : Large\n";
         }
 
-        outFile << "Number of Cups: " << number[oS] << "\n";
-        outFile << "Price per Cup: $" << (Size[oS] == 1 ? Menu[type[oS]].S : Size[oS] == 2 ? Menu[type[oS]].M : Menu[type[oS]].L) << "\n";
-        outFile << "Total for this item: $" << totalPrice << "\n";
-        outFile << "----------------------\n";
+          outFile << "Number of Cups      : " << number[oS] << "\n";
+          outFile << "Price per Cup       : $" << (Size[oS] == 1 ? Menu[type[oS]].S : Size[oS] == 2 ? Menu[type[oS]].M : Menu[type[oS]].L) << "\n";
+          outFile << "Total for this item : $" << totalPrice << "\n";
+          outFile << "----------------------\n";
     }
 
     // Apply discounts after calculating the total price
@@ -219,9 +216,9 @@ void priceCar(CoffeeMenu Menu[], int type[], int Size[], int number[], int arrSi
 
 void DateCheck(){
      
-     cout << " - Year :" << 1900 + ltm->tm_year<<endl;
+     cout << " - Year  :" << 1900 + ltm->tm_year<<endl;
      cout << " - Month : "<< 1 + ltm->tm_mon<< endl;
-     cout << " - Day : "<< ltm->tm_mday << endl;
+     cout << " - Day   : "<< ltm->tm_mday << endl;
      cout << " - Date saved."<<endl;
 }
 
@@ -369,7 +366,7 @@ int main(){
                do
                {
                     again:
-                    cout<<"  1.Display Order\n  2. Remove a Order (It has been served)\n3. Back\n";
+                    cout<<"  1.Display Order\n  2. Remove a Order (It has been served)\n  3. Back\n";
                     cout<<" \nEnter your choice : ";
                     cin>>select;
                     if(select==1)
@@ -439,7 +436,7 @@ int main(){
                     cin >> select;
 
             if (select == 1) {
-                cout << " - Enter Date: ";
+                cout << " - Enter Day: ";
                 cin >> RDay;
                 cout << " - Enter Month: ";
                 cin >> Rmonth;

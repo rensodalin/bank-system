@@ -30,9 +30,9 @@ struct Queue
 Queue *MakeNewList()
 {
     Queue *qs =new Queue();
-    q->front=NULL;
-    q->tail=NULL;
-    q->n = 0;
+    qs->front=NULL;
+    qs->tail=NULL;
+    qs->n = 0;
     return qs;
 }
 
@@ -46,7 +46,7 @@ void enqueue(Queue *qs, int name[], int size[], int number[], int arrSize, Coffe
         e->number[i] = number[i];
         if(name[i] == 0)
         {
-            e->name[i] = "Bullet";
+            e->name[i] = "Crystal";
             if (size[i] == 1)
             {
                 e->size[i] = "Small";
@@ -66,7 +66,7 @@ void enqueue(Queue *qs, int name[], int size[], int number[], int arrSize, Coffe
         }
         else if(name[i] ==1)
         {
-            e->name[i] = "Crown";
+            e->name[i] = "Artic";
             if (size[i] == 1)
             {
                 e->size[i] = "Small";

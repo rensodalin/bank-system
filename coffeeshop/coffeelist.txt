@@ -1,5 +1,5 @@
-1 Bullet 1.8 2 2.2
-2 Crown 2 2.2 2.4
+1 Crystal 1.8 2 2.2
+2 Artic 2 2.2 2.4
 3 Hot_Latte 1.5 1.8 2
 4 Cappucino 1.5 1.8 2
 5 Mocha 1.6 2.2 2.4
